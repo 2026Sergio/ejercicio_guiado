@@ -61,3 +61,9 @@ SELECT * FROM juegos;
 
 
 ![alt text](image.png)
+
+## obten los 8 juegos sobre el promedio global y los 10 sobre su categoria 
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
