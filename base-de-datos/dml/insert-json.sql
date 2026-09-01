@@ -1,3 +1,5 @@
+CREATE TABLE temporal_json(data JSONB);
+
 INSERT INTO categorias(codigo, nombre, descripcion)
 SELECT 
      e->> 'codigo',
@@ -5,3 +7,5 @@ SELECT
      e->>'descripcion'
 FROM temporal_json AS t 
 CROSS JOIN LATERAL  jsonb_array_elements(t.data) AS e;
+
+SELECT * FROM temporal_json;

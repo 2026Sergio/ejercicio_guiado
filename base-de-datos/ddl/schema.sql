@@ -14,5 +14,4 @@ campus=# CREATE TABLE juegos (
     categoria_id INT NOT NULL
 );
 
-CREATE TABLE temporal_json(data JSONB);
 
