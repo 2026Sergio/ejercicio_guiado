@@ -64,6 +64,16 @@ SELECT * FROM juegos;
 
 ## obten los 8 juegos sobre el promedio global y los 10 sobre su categoria 
 
+
+###### consulta 1
+
 ![alt text](image-1.png)
 
+###### consulta 2
+
 ![alt text](image-2.png)
+
+
+## auditoria: cuenta juegos por categoria con LEFT JOIN el resultado es 5 en cada una
+
+![alt text](image-3.png)
